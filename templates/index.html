@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>spliter</title>
+    <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+      <form action="/" method="POST">
+        <div>
+        <label>travel(km)</label>
+        <input type="number" name="travel" step="0.1" placeholder="esim. 150" required></div>
+        <div>
+        <label>fuel consuption (L/100km)</label>
+        <input type="number" name="cars"  step="0.1" placeholder="esim. 6.5" required></div>
+        <div>
+        <label>fuel price (€/L)</label>
+        <input type="number" name="gasprice"
+        step="0.1" placeholder="esim. 1.80" reqired></div>
+        <div>
+        <label>passengers</label>
+        <input type="number" name="p" step="1" placeholder="esim. 4" required></div>
+        <button type="submit">its make</button>
+      </form>
+      {% if total %}
+      <div class="f"> total: {{ total }} €
+      </div>
+      {% endif %}
+      </div>
+    </body>
+</html>
