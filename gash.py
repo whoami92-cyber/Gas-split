@@ -17,7 +17,7 @@ def caculator():
 @app.route('/robots.txt')
 def robots():
     return "User-agent: *\n Allow: /", 200, {'Content-Type: text/plain'}
-    if __name__=='__main__':
-        app.run(debug=True)
+if __name__=='__main__':
+    app.run(debug=True)
 
 
