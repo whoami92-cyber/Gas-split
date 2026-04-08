@@ -5,3 +5,5 @@
  
  # Update 
   update button text
+  # Upade
+  mode site phone screen freandly
