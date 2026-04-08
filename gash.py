@@ -14,7 +14,11 @@ def caculator():
         f=d/g
         f= round(f, 2)
     return render_template('index.html', total=f)
-if __name__=='__main__':
+    @app.route('robots.txt')
+    def robots():
+        return "user-agent: *\n Allow:/",
+        200{'Content-Type: text/plain'}
+    if __name__=='__main__':
     app.run(debug=True)
 
 
