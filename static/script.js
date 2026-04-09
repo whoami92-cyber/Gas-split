@@ -7,4 +7,5 @@ document.getElementById('mode').addEventListener'click', function()){
   const persons= allprice / passengers ;
   document.getElementById('total').innerText="total" + allprice.toFixed(2) + "€\n";
   "oneperson" + persons.toFixed(2) +"€";
+  document.getElementById('result').innerHTML="cost" +allprice.toFixed(2) + "€";
 });
