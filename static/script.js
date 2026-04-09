@@ -1,11 +1,9 @@
-document.getElementById('mode').addEventListener'click', function()){
-  const km= parseFloat(document.getElementById('travel').value);
-  const fuel = parseFloat(document.getElementById('fuel').value);
-  const price=parseFloat(document.getElementById('price').value);
-  const passengers=parseFloat(document.getElementById('passengers').value);
-  const allprice=(km / 100) * fuel * price;
-  const persons= allprice / passengers ;
-  document.getElementById('total').innerText="total" + allprice.toFixed(2) + "€\n";
-  "oneperson" + persons.toFixed(2) +"€";
-  document.getElementById('result').innerHTML="cost" +allprice.toFixed(2) + "€";
-});
+function mode() {
+    const km = parseFloat(document.getElementById('travel').value);
+    const fuel = parseFloat(document.getElementById('fuel').value);
+    const price = parseFloat(document.getElementById('price').value);
+    const passengers = parseFloat(document.getElementById('passengers').value) || 1;
+    const allprice = (km / 100) * fuel * price;
+    const persons = allprice / passengers;
+    document.getElementById('total').innerText = "Total: " + allprice.toFixed(2) + "€ | Per person: " + persons.toFixed(2) + "€";
+}
