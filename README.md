@@ -9,3 +9,5 @@
   mode site phone screen freandly
 # Update
 now you can use also `,`
+# Update 
+now javascript and manifest.json added 
