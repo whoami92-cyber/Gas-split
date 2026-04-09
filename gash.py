@@ -5,10 +5,10 @@ app=Flask(__name__)
 def caculator():
     f=None
     if request.method=='POST':
-        b= float (request.form['travel'])
-        c=float (request.form['cars'])
-        e=float (request.form['gasprice'])
-        g=float (request.form['p'])
+        b= float (request.form['travel'].replace(',', '.'))
+        c=float (request.form['cars'].replace(',', '.'))
+        e=float (request.form['gasprice'].replace(',', '.'))
+        g=float (request.form['p'].replace(',', '.'))
         a=(b/100)*c
         d=a*e
         f=d/g
