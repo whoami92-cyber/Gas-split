@@ -8,6 +8,7 @@ def index():
 def robots():
     return "User-agent: *\n Allow: /", 200, {'Content-Type: text/plain'}
 if __name__=='__main__':
-    app.run()
+    port=int(os.onviron.get("PORT", 1000))
+    app.run(host='0.0.0.0', port=port)
 
 
