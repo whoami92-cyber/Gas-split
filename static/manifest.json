@@ -1,18 +1,18 @@
 {
-  "name": "Gas Split App",
-  "short_name": "Gash",
+  "name": "gas spli app",
+  "short_name": "gash",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#8fb3c0",
   "theme_color": "#8fb3c0",
   "icons": [
     {
-      "src": "/static/icon.png",
+      "src": "/static/pump.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/static/icon.png",
+      "src": "/static/pump.png",
       "sizes": "512x512",
       "type": "image/png"
     }
