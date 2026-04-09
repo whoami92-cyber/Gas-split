@@ -1,13 +1,21 @@
-{"short_name":"gasspli",
-"name":"gas-spli-app",
-"icons":[{ "src": "/static/pump.png",
-"sizes": "192x192",
-"type": "image/png"},
-{"src": "/static/pump.png",
-"sizes": "512x512",
-"type": "image/png"}],
-"start_url": "/",
-"display": "standalone",
-"background_color": "#ffffff"
-"theme_color": "#000000"
+{
+  "name": "Gas Split App",
+  "short_name": "Gash",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8fb3c0",
+  "theme_color": "#8fb3c0",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
+
