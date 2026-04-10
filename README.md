@@ -11,3 +11,5 @@
 now you can use also `,`
 # Update 
 now javascript and manifest.json added 
+# Update
+icon not working due to inncorrect file format
