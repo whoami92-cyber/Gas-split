@@ -6,7 +6,7 @@
   "theme_color": "#8fb3c0",
   "icons": [
     {"src": "/static/pump.png",
-      "sizes": "200x200",
+      "sizes": "1x1",
       "type": "image/png"
     },
     {"src": "/static/pump.png",
